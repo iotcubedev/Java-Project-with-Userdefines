@@ -55,5 +55,10 @@
 		    <artifactId>jodd-lagarto</artifactId>
 		    <version>3.4.8</version>
 		</dependency>
+		<dependency>
+    		<groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-ext</artifactId>
+		    <version>1.8.0-beta0</version>
+		</dependency>
 	</dependencies>
 </project>
