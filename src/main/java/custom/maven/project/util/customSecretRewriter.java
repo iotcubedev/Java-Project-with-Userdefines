@@ -21,7 +21,7 @@ public class customSecretRewriter {
         byte[] in;
         try {
             in = Base64.decode(s.toCharArray());
-        } catch (IOException e) {
+        } catch (Exception e) {
             return s;   // not a valid base64
         }
         cipher.init(Cipher.DECRYPT_MODE, key);
@@ -41,7 +41,7 @@ public class customSecretRewriter {
         byte[] in;
         try {
             in = Base64.decode(s.toCharArray());
-        } catch (IOException e) {
+        } catch (Exception e) {
             return s;   // not a valid base64
         }
 		cipher.init(Cipher.DECRYPT_MODE, key);
