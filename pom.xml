@@ -15,7 +15,7 @@
 		<dependency>
 		    <groupId>commons-collections</groupId>
 		    <artifactId>commons-collections</artifactId>
-		    <version>3.2.1</version>
+		    <version>3.2.2</version>
 		</dependency>
 		
 		<dependency>
@@ -43,12 +43,12 @@
 		<dependency>
     		<groupId>org.cryptacular</groupId>
 		    <artifactId>cryptacular</artifactId>
-		    <version>1.2.3</version>
+		    <version>1.2.4</version>
 		</dependency>
 		<dependency>
     		<groupId>com.puppycrawl.tools</groupId>
 		    <artifactId>checkstyle</artifactId>
-		    <version>8.21</version>
+		    <version>8.38</version>
 		</dependency>
 		<dependency>
     		<groupId>org.jodd</groupId>
