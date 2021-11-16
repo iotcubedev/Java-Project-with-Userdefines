@@ -53,7 +53,7 @@
 		<dependency>
     		<groupId>org.jodd</groupId>
 		    <artifactId>jodd-lagarto</artifactId>
-		    <version>3.4.8</version>
+		    <version>3.9.1</version>
 		</dependency>
 		<dependency>
     		<groupId>org.slf4j</groupId>
